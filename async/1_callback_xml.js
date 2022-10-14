@@ -18,11 +18,11 @@ function get_data(endpoint, exito, fallo) {
     //4. enciar soliciud (request) a la API
     http.send()
     //5. hacer el tratamiento de la response 
-    http.onload = function(){
-        if(http.status === 200){
-            
-        exito(http.responseText)
-        }else{
+    http.onload = function () {
+        if (http.status === 200) {
+
+            exito(http.responseText)
+        } else {
             fallo(http.status)
         }
     }

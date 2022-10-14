@@ -20,7 +20,7 @@ const get_data = (endpoint, exito, fallo) => {
     let http = new XMLHttpRequest()
     //3. abrir una conexión a la API
     http.open('get', endpoint)
-    //4. enciar soliciud (request) a la API
+    //4. enviar soliciud (request) a la API
     http.send()
     //5. hacer el tratamiento de la response 
     http.onload = () => {
