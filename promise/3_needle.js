@@ -1,6 +1,6 @@
 const needle = require('needle')
 
-const url = 'https://pokeapi.co/api/v2/type'
+const url = 'https://bobsburgers-api.herokuapp.com/characters/?limit=9&skip=10'
 
 needle('get', url )
         .then((response)=>{

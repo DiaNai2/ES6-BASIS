@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon evidencias/naruto.js"
+    "dev": "nodemon Evidencia_1/colores_callback.js"
   },
   "repository": {
     "type": "git",
